@@ -9,5 +9,7 @@ class DataStore {
     let duration = Double.random(in: 1...3)
     let delay = Double.random(in: 0...1)
     
+    
+    
     private init() {}
 }
