@@ -7,17 +7,23 @@ final class ViewController: UIViewController {
     @IBOutlet var changeButton: UIButton!
     @IBOutlet var animationLabel: UILabel!
     
-    let properties = AnimationSettings.getAnimatedViews()
+    let animations = Animation.getAnimatedViews()
+    let animation = Animation(preset: "",
+                              curve: "",
+                              force: 1,
+                              duration: 1,
+                              delay: 1)
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
     }
     
-    // MARK: - Private methods
-    @IBAction func buttonPressed() {
-        changeButton.setTitle(properties.preset, for: .normal)
+    @IBAction func buttonPressed(_ sender: UIButton) {
+        changeButton.setTitle("Current animation:  \(String(describing: animations.first?.preset))", for: .normal)
+        
+        animationLabel.text = animation.animationDescription
+        
     }
-    
 }
 

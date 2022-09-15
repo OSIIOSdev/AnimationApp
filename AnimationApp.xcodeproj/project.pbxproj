@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		69773F3128D21E10004E0216 /* AnimationSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69773F3028D21E10004E0216 /* AnimationSettings.swift */; };
+		69773F3128D21E10004E0216 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69773F3028D21E10004E0216 /* Animation.swift */; };
 		69773F3628D244F8004E0216 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69773F3528D244F8004E0216 /* DataStore.swift */; };
 		69DA7E4E28D207D300C9A1FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DA7E4D28D207D300C9A1FA /* AppDelegate.swift */; };
 		69DA7E5028D207D300C9A1FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DA7E4F28D207D300C9A1FA /* SceneDelegate.swift */; };
@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		69773F3028D21E10004E0216 /* AnimationSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationSettings.swift; sourceTree = "<group>"; };
+		69773F3028D21E10004E0216 /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
 		69773F3528D244F8004E0216 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		69DA7E4A28D207D300C9A1FA /* AnimationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69DA7E4D28D207D300C9A1FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		69773F2F28D21AEB004E0216 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				69773F3028D21E10004E0216 /* AnimationSettings.swift */,
+				69773F3028D21E10004E0216 /* Animation.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -204,7 +204,7 @@
 				69DA7E4E28D207D300C9A1FA /* AppDelegate.swift in Sources */,
 				69DA7E5028D207D300C9A1FA /* SceneDelegate.swift in Sources */,
 				69773F3628D244F8004E0216 /* DataStore.swift in Sources */,
-				69773F3128D21E10004E0216 /* AnimationSettings.swift in Sources */,
+				69773F3128D21E10004E0216 /* Animation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
